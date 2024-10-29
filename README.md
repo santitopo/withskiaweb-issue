@@ -31,7 +31,8 @@ To reproduce the crash, do the following:
 
 You will see how it loads for a second and immediately crashes with `Cannot read properties of null (reading 'rangeMin')` error as soon as the first state update happens
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/c0eb06cc-c531-4736-9c3a-294e028b2208">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/1f1c2e10-6d2d-4f31-91e3-6a351ecbea63">
+
 
 ## Run the project
 
