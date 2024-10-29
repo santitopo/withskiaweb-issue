@@ -4,8 +4,8 @@ import { renderRootComponent } from "expo-router/build/renderRootComponent";
 
 import { LoadSkiaWeb } from "@shopify/react-native-skia/lib/module/web";
 
-// LoadSkiaWeb().then(async () => {
-//   renderRootComponent(App);
-// });
+LoadSkiaWeb().then(async () => {
+  renderRootComponent(App);
+});
 
-renderRootComponent(App);
+// renderRootComponent(App);
