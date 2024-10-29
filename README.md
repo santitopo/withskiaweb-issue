@@ -33,6 +33,9 @@ You will see how it loads for a second and immediately crashes with `Cannot read
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/1f1c2e10-6d2d-4f31-91e3-6a351ecbea63">
 
+| LoadSkiaWeb | WithSkiaWeb |
+| ------ | ------ |
+|    ![working](https://github.com/user-attachments/assets/03d6e4f6-67c4-45b4-ba4e-2c33be2868b4) | ![issue](https://github.com/user-attachments/assets/022d089b-6bd6-45d3-a173-f6ab312135c1)    |
 
 ## Run the project
 
