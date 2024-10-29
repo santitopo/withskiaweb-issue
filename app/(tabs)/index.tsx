@@ -1,7 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import { useEffect, useState } from "react";
-// import SkiaComponent from "@/components/SkiaComponent/SkiaComponent";
-import BaseSkiaComponent from "@/components/SkiaComponent/BaseSkiaComponent";
+import SkiaComponent from "@/components/SkiaComponent/SkiaComponent";
+// import BaseSkiaComponent from "@/components/SkiaComponent/BaseSkiaComponent";
 
 export default function HomeScreen() {
   console.log("rendering home");
@@ -15,8 +15,11 @@ export default function HomeScreen() {
 
   return (
     <View style={{ padding: 20, flex: 1 }}>
-      {/* <SkiaComponent contentSize={size} borderSize={2} /> */}
-      <BaseSkiaComponent contentSize={size} borderSize={2} />
+      {/* Uncomment to test skia component with web version wrapped in WithSkiaWeb */}
+      <SkiaComponent contentSize={size} borderSize={2} />
+
+      {/* Uncomment to test skia component */}
+      {/* <BaseSkiaComponent contentSize={size} borderSize={2} /> */}
     </View>
   );
 }
